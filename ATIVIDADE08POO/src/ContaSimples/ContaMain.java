@@ -11,12 +11,15 @@ public class ContaMain {
 		c.saque(100);
 		c.saque(901);
 		*/
-		ContaSimples cs = new ContaSimples ("Caixa",456,654,100);
+		/*ContaSimples cs = new ContaSimples ("Caixa",456,654,100);
 		System.out.println(cs.depositopoupanca(40000));
 		System.out.println(cs.saquepoupanca(30000));
 		System.out.println(cs.saquepoupanca(30000));
 		
-		System.out.println(cs);
+		System.out.println(cs);*/
+		
+		ContaEspecial ce = new ContaEspecial ("Bradesco",456,364,233,4566);
+		System.out.println(ce);
 		
 	}
 
